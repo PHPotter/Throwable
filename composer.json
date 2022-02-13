@@ -1,0 +1,19 @@
+{
+    "name": "potter/throwable",
+    "description": "Open Source PHP 8 Exception Classes",
+    "version": "0.0.1",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "jay@jaypotter.ca"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Potter\\Throwable\\": "Potter/Throwable/"}
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
