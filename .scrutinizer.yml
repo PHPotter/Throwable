@@ -1,12 +1,12 @@
 build:
   environment:
     php:
-      version: '8.1.2'
+      version: '8.0.15'
   nodes:
     analysis:
       tests:
         override:
           - php-scrutinizer-run
-          - command: phpcs-run --config phpcs.xml
+          - command: phpcs-run --standard=phpcs.xml
 checks:
     php: true
