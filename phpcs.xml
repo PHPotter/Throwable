@@ -16,8 +16,15 @@
   
  <rule ref="PEAR"/>
  <rule ref="PSR2"/>
- <rule ref="Squiz"/>
- <rule ref="Generic"/>
+ <rule ref="Squiz">
+  <exclude name="Squiz.Commenting.ClosingDeclarationComment.Missing"/>
+  <exclude name="Squiz.Files.FileExtension.ClassFound"/>
+ </rule>
+ <rule ref="Generic">
+  <exclude name="Generic.Classes.OpeningBraceSameLine"/>
+  <exclude name="Generic.Files.LowercasedFilename.NotFound"/>
+  <exclude name="Generic.PHP.ClosingPHPTag.NotFound"/>
+ </rule>
  <rule ref="PSR1"/>
   
 </ruleset>
